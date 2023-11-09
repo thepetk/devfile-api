@@ -46,7 +46,7 @@ jobs:
           path: 'api/build/typescript-model/requirements.txt'
 
       - name: Setup node
-        uses: actions/setup-node@v8f152de45cc393bb48ce5d89d36b731f54556e65 # v4.0.0
+        uses: actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65 # v4.0.0
         with:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
